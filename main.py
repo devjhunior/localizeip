@@ -15,3 +15,7 @@ async def locIP(ip):
     loc = res.get_geoloc(ip)
 
     return loc
+
+
+if __name__ == '__main__':
+    app.run()
